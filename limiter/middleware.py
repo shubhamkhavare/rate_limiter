@@ -36,3 +36,4 @@ class IPExtractionMiddleware:
         # Fall back to REMOTE_ADDR
         return request.META.get('REMOTE_ADDR', '127.0.0.1')
 
+
